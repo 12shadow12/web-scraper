@@ -9,7 +9,8 @@ This project is a Python-based web scraper designed to extract data from Wikiped
 - Scrapes specified Wikipedia pages to collect data  
 - Parses HTML content using BeautifulSoup  
 - Extracts tables, text, or other structured data from Wikipedia articles  
-- Saves scraped data to CSV or JSON files  
+- Uses **pandas** to process and organize scraped data  
+- Saves data to CSV or JSON files for easy analysis  
 - Easily configurable for different Wikipedia pages or data types  
 
 ---
@@ -19,6 +20,7 @@ This project is a Python-based web scraper designed to extract data from Wikiped
 - Python 3  
 - Requests  
 - BeautifulSoup  
+- **pandas**  
 - CSV / JSON libraries  
 
 ---
